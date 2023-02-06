@@ -463,6 +463,7 @@ export default {
         },
         customBackend: {
           "本地局域网版后端": "http://127.0.0.1:25500/sub?",
+          "本站后端": "https://sub.tagsub.cf/sub?",
           "肥羊增强型后端【vless+hysteria】": "https://api.v1.mk/sub?",
           "肥羊备用后端【vless+hysteria】": "https://sub.d1.mk/sub?",
           "つつ-多地防失联【负载均衡+国内优化】": "https://api.tsutsu.one/sub?",
@@ -473,6 +474,7 @@ export default {
         },
         backendOptions: [
           {value: "http://127.0.0.1:25500/sub?"},
+          {value: "https://sub.tagsub.cf/sub?"},
           {value: "https://api.v1.mk/sub?"},
           {value: "https://sub.d1.mk/sub?"},
           {value: "https://api.tsutsu.one/sub?"},
